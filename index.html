@@ -1,0 +1,456 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    <title>Sarina Khan - Architecture Portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>    <!-- Loading Screen -->
+    <div id="loading-screen">
+        <div class="loader">
+            <div class="loader-text">SK</div>
+            <div class="loader-ring"></div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <span class="logo-text">Sarina Khan
+                    <span class="logo-subtitle">Architecture Student</span>
+                </span>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Home Section with Animated Slideshow -->
+    <section id="home" class="hero">        <div class="slideshow-container">
+            <div class="slide active">
+                <img src="https://images.unsplash.com/photo-1487958449943-2429e8be8625?w=1920&h=1080&fit=crop" alt="Modern Architecture">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1511818966892-d7d671e672a2?w=1920&h=1080&fit=crop" alt="Architectural Design">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=1920&h=1080&fit=crop" alt="Sustainable Building">
+                <div class="slide-overlay"></div>
+            </div>
+            <div class="slide">
+                <img src="https://images.unsplash.com/photo-1486325212027-8081e485255e?w=1920&h=1080&fit=crop" alt="Urban Planning">
+                <div class="slide-overlay"></div>
+            </div>
+        </div>
+          <div class="hero-content">
+            <div class="hero-text">
+                <h1 class="hero-title">
+                    <span class="title-line">Architecture</span>
+                    <span class="title-line">Student at</span>
+                    <span class="title-line">Virginia Tech</span>
+                </h1>
+                <p class="hero-subtitle">Designing spaces that inspire and transform communities</p>
+                <div class="hero-buttons">
+                    <a href="#portfolio" class="btn btn-primary">View Portfolio</a>
+                    <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="scroll-indicator">
+            <div class="scroll-text">Scroll Down</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>    <!-- Portfolio Section -->
+    <section id="portfolio" class="portfolio-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Portfolio</h2>
+                <p class="section-subtitle">A showcase of architectural projects developed during my studies at Virginia Tech</p>
+            </div>
+
+            <!-- Projects -->
+            <div class="projects-grid">
+                <div class="project-card" data-category="residential">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?w=600&h=400&fit=crop" alt="Sustainable Family Home">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Sustainable Family Home</h3>
+                                <p>ARCH 3105 - Residential Design</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-images"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sustainable Family Home</h3>
+                        <p class="project-description">Net-zero energy home design focused on passive solar strategies and sustainable materials</p>
+                        <div class="project-tags">
+                            <span class="tag">Revit</span>
+                            <span class="tag">AutoCAD</span>
+                            <span class="tag">Sustainability</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1562774053-701939374585?w=600&h=400&fit=crop" alt="Community Arts Center">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Community Arts Center</h3>
+                                <p>ARCH 4105 - Public Architecture</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-images"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Community Arts Center</h3>
+                        <p class="project-description">Multi-use cultural facility designed to foster community engagement through art</p>
+                        <div class="project-tags">
+                            <span class="tag">SketchUp</span>
+                            <span class="tag">Rhino</span>
+                            <span class="tag">Public Space</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="conceptual">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1535844430904-15296509ff72?w=600&h=400&fit=crop" alt="Urban Vertical Farm">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Urban Vertical Farm</h3>
+                                <p>Design Studio - Future Living</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-images"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Urban Vertical Farm</h3>
+                        <p class="project-description">Innovative high-rise design integrating agriculture with urban living spaces</p>
+                        <div class="project-tags">
+                            <span class="tag">Grasshopper</span>
+                            <span class="tag">3ds Max</span>
+                            <span class="tag">Innovation</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="academic">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=600&h=400&fit=crop" alt="VT Campus Library">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>VT Campus Library Extension</h3>
+                                <p>ARCH 4205 - Institutional Design</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-images"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">VT Campus Library Extension</h3>
+                        <p class="project-description">Modern addition to Newman Library incorporating flexible learning spaces</p>
+                        <div class="project-tags">
+                            <span class="tag">BIM</span>
+                            <span class="tag">Historic Preservation</span>
+                            <span class="tag">Campus Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="residential">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=600&h=400&fit=crop" alt="Affordable Housing">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Affordable Housing Complex</h3>
+                                <p>ARCH 3205 - Social Housing</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-images"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Affordable Housing Complex</h3>
+                        <p class="project-description">Dignified housing solution addressing Blacksburg's student housing shortage</p>
+                        <div class="project-tags">
+                            <span class="tag">Social Impact</span>
+                            <span class="tag">Cost Analysis</span>
+                            <span class="tag">Community</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-category="commercial">
+                    <div class="project-image">
+                        <img src="https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?w=600&h=400&fit=crop" alt="Mixed-Use Development">
+                        <div class="project-overlay">
+                            <div class="project-info">
+                                <h3>Downtown Blacksburg Mixed-Use</h3>
+                                <p>ARCH 4305 - Urban Design</p>
+                            </div>
+                            <div class="project-links">
+                                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                                <a href="#" class="project-link"><i class="fas fa-images"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Downtown Blacksburg Mixed-Use</h3>
+                        <p class="project-description">Revitalizing downtown with retail, office, and residential integration</p>
+                        <div class="project-tags">
+                            <span class="tag">Urban Planning</span>
+                            <span class="tag">Mixed-Use</span>
+                            <span class="tag">Local Context</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Academic Journey Timeline -->
+            <div class="academic-section">
+                <h3 class="experience-title">Academic Journey at Virginia Tech</h3>
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4 class="job-title">Junior Year - Advanced Studios</h4>
+                            <p class="company">ARCH 3105, 3205, 3305</p>
+                            <p class="duration">2023 - 2024</p>
+                            <p class="job-description">Completed advanced design studios focusing on residential, institutional, and urban design. Developed proficiency in BIM software and sustainable design principles.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4 class="job-title">Sophomore Year - Foundation Studios</h4>
+                            <p class="company">ARCH 2105, 2205</p>
+                            <p class="duration">2022 - 2023</p>
+                            <p class="job-description">Built strong foundation in architectural design principles, drawing techniques, and digital modeling. Explored the relationship between form, function, and context.</p>
+                        </div>
+                    </div>
+                    <div class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h4 class="job-title">First Year - Design Fundamentals</h4>
+                            <p class="company">ARCH 1105, 1205</p>
+                            <p class="duration">2021 - 2022</p>
+                            <p class="job-description">Introduction to architectural thinking through hands-on design exercises. Developed skills in spatial reasoning, material understanding, and design communication.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Me</h2>
+                    <div class="about-description">
+                        <p>Hello! I'm Sarina Khan, a passionate architecture student in my junior year at Virginia Tech's School of Architecture + Design. Based in Blacksburg, Virginia, I'm dedicated to creating meaningful spaces that enhance human experiences and contribute to sustainable communities.</p>
+                        
+                        <p>My journey in architecture began with a fascination for how built environments shape our daily lives and social interactions. Through my studies at Virginia Tech, I've developed a strong foundation in design principles, sustainable practices, and digital fabrication technologies. I believe architecture has the power to address social challenges and create more equitable communities.</p>
+                        
+                        <p>When I'm not in studio or working on models, you can find me exploring the Blue Ridge Mountains, sketching urban scenes in downtown Blacksburg, or volunteering with Habitat for Humanity. I'm passionate about the intersection of technology and traditional craftsmanship in contemporary architecture.</p>
+                    </div>
+                    
+                    <div class="skills-section">
+                        <h3 class="skills-title">Design Tools & Skills</h3>
+                        <div class="skills-grid">
+                            <div class="skill-item">
+                                <i class="fas fa-drafting-compass"></i>
+                                <span>Revit & BIM</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-pencil-ruler"></i>
+                                <span>AutoCAD</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-cube"></i>
+                                <span>SketchUp & Rhino</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-leaf"></i>
+                                <span>Sustainable Design</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-paint-brush"></i>
+                                <span>Hand Drawing</span>
+                            </div>
+                            <div class="skill-item">
+                                <i class="fas fa-layer-group"></i>
+                                <span>3D Modeling</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="achievements-section">
+                        <h3 class="skills-title">Achievements & Recognition</h3>
+                        <div class="achievements-list">
+                            <div class="achievement-item">
+                                <i class="fas fa-trophy"></i>
+                                <div>
+                                    <h4>Dean's List</h4>
+                                    <p>Fall 2023, Spring 2024</p>
+                                </div>
+                            </div>
+                            <div class="achievement-item">
+                                <i class="fas fa-award"></i>
+                                <div>
+                                    <h4>AIA Student Award</h4>
+                                    <p>Outstanding Design Excellence 2024</p>
+                                </div>
+                            </div>
+                            <div class="achievement-item">
+                                <i class="fas fa-hands-helping"></i>
+                                <div>
+                                    <h4>Community Service</h4>
+                                    <p>200+ hours with Habitat for Humanity</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-images">
+                    <div class="image-stack">
+                        <div class="image-item main-image">
+                            <img src="images/picofme.jpg" alt="Sarina Khan">
+                        </div>
+                        <div class="image-item floating-image-1">
+                            <img src="images/picofme.jpg" alt="Architecture Studio">
+                        </div>
+                        <div class="image-item floating-image-2">
+                            <img src="images/picofme.jpg" alt="Design Process">
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            
+    </section>    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-text">
+                    <h2 class="section-title">Let's Connect</h2>
+                    <p class="section-subtitle">Interested in collaborating or discussing architecture? I'd love to hear from you.</p>
+                    
+                    <div class="contact-info">
+                        <div class="contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>Sarinak0723@vt.edu</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-phone"></i>
+                            <div>
+                                <h4>Phone</h4>
+                                <p>Phone Numer</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>Blacksburg, Virginia</p>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>University</h4>
+                                <p>Virginia Tech - Class of 2028</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="social-links">
+                        <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-behance"></i></a>
+                        <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                        <a href="#" class="social-link"><i class="fas fa-portfolio"></i></a>
+                    </div>
+                </div>
+                
+                <div class="contact-form">
+                    <form class="form">
+                        <div class="form-group">
+                            <input type="text" class="form-input" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-input" placeholder="Your Email" required>
+                        </div>
+                        <div class="form-group">
+                            <select class="form-input" required>
+                                <option value="">Project Type</option>
+                                <option value="collaboration">Collaboration</option>
+                                <option value="internship">Internship Opportunity</option>
+                                <option value="academic">Academic Project</option>
+                                <option value="general">General Inquiry</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <textarea class="form-input form-textarea" placeholder="Your Message" rows="5" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>&copy; 2025 Sarina Khan. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
